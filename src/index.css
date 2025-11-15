@@ -1,0 +1,21 @@
+@import url("https://fonts.cdnfonts.com/css/lufga");
+@import url("https://fonts.cdnfonts.com/css/poppins");
+    @font-face {
+      font-family: 'NameLogo'; /* Choose a descriptive name for your font */
+      src: url('/fonts/catfishpress-regular.woff2') format('woff2'), /* Path to your font file */
+           url('/fonts/catfishpress-regular.woff') format('woff'); /* Include multiple formats for broader browser support */
+    }
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@plugin "daisyui";
+
+
+
+
+@theme {
+  --nav-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --font-lufga: "Lufga", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-logo: "NameLogo";
+}
+
