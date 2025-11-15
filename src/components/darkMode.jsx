@@ -22,7 +22,7 @@ useEffect(() => {
 }, [])
 
   return (
-    <button onClick={toggleTheme}>{theme === 'light' ? <Moon size={28} color="#262626"/> : <Sun size={28}/>}</button>
+    <button onClick={toggleTheme}>{theme === 'light' ? <Moon size={28} color="#262626"/> : <Sun size={28} color="#ffffff"/>}</button>
   )
 }
 
