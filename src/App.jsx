@@ -4,7 +4,7 @@ import Navbar from './components/navbar'
 
 import Hero from './components/Hero'
 import About from './components/About'
-import Showcase from './components/showcase'
+import Showcase from './components/Showcase'
 
 import Footer from './components/Footer'
 import "slick-carousel/slick/slick.css";
