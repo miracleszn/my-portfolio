@@ -12,10 +12,10 @@ const Hero = () => {
                 <p className='text-[#8D8B83] font-poppins md:textarea-md lg:textarea-lg'>FullStack Web Dev | Andriod Dev</p>
                 <SocialBar gapValue={1.5}/>
                 <div className='flex gap-3'>
-                    <Button className="bg-neutral-800 font-poppins px-6 py-3 rounded-2xl md:textarea-md md:px-4  text-white data-active:bg-[#8D8B83] data-hover:bg-neutral-700">
+                    <Button onClick={() => window.open("https://drive.google.com/file/d/1arMBfMR5C9jl4BVVyYvHQ8otlUm1iXu8/view?usp=sharing", "_blank")} className="bg-neutral-800 font-poppins px-6 py-3 rounded-2xl md:textarea-md md:px-4  text-white data-active:bg-[#8D8B83] data-hover:bg-neutral-700">
                         Download CV
                     </Button>
-                    <Button className="bg-neutral-800 font-poppins px-6 py-3 rounded-2xl md:textarea-md md:px-4 text-white data-active:bg-[#8D8B83] data-hover:bg-neutral-700">
+                    <Button onClick={() => window.location.href = "https://cal.com/miraclecodes"} className="bg-neutral-800 font-poppins px-6 py-3 rounded-2xl md:textarea-md md:px-4 text-white data-active:bg-[#8D8B83] data-hover:bg-neutral-700">
                         Book Me
                     </Button>
                 </div>
