@@ -26,7 +26,7 @@ const Hero = () => {
                         <img className='h-full w-full object-cover' src="/left-p.jpg" alt="" />
                     </div>
                     <div className='w-full h-full rounded-full overflow-hidden ring-4 ring-white dark:ring-[#1A1A18]'>
-                        <img className='w-full h-full object-cover' src="/replaced-profile.jpg" alt="" />
+                        <img className='w-full h-full object-cover' src="/replaced-profile.png" alt="" />
                     </div>
                     <div className='absolute overflow-hidden bg-[#ccb877] md:w-38 md:h-38 lg:w-48 lg:h-48 rounded-full border-4 border-white dark:border-[#1A1A18] -right-22 -top-11 transition-transform duration-1100 group-hover:translate-y-70'>
                         <img className='h-full w-full object-cover' src="/right-p.jpg" alt="" />
@@ -45,7 +45,7 @@ const Hero = () => {
               after:absolute after:content-[" "] after:w-8 after:h-8 after:top-[57px] after:bg-[#ccb877] after:rounded-tl-4xl 
               after:-right-[45px] after:shadow-[-7px_-8px_0px_5px_#ffffff] dark:after:shadow-[#1A1A18]'>
                 <div className='h-full w-full rounded-full overflow-hidden'> 
-                    <img className='w-full h-full object-cover' src="/replaced-profile.jpg" alt="" />
+                    <img className='w-full h-full object-cover' src="/replaced-profile.png" alt="" />
                 </div>
             </div>
             <h4 className='font-lufga font-medium text-center text-2xl'>Miracle Codes</h4>
