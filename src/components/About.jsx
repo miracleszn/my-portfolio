@@ -19,7 +19,7 @@ const About = () => {
   return (
     <section id='about-section' className='px-2 md:px-8 lg:px-32 my-16'>
         <div className='flex flex-col gap-24 h-max text-neutral-800 md:gap-12 lg:h-96 lg:flex-row dark:text-white'>
-            <div className='w-full  border rounded-xl border-white dark:border-neutral-800 p-4 transition-all duration-300 hover:bg-[#0000001a] lg:w-[50%] lg:h-max'>
+            <div className='w-full  border rounded-xl bborder-neutral-800 dark:border-white p-4 transition-all duration-300 hover:bg-[#0000001a] lg:w-[50%] lg:h-max'>
                 <h2 className='font-lufga mb-2.5 text-2xl lg:text-3xl'>Behind the Work</h2>
                 <p className='font-poppins md:textarea-md md:leading-5.5 lg:leading-7 lg:textarea-lg lg:max-h-max'>As a passionate web and app developer, I specialize in crafting dynamic, user-centric digital experiences for businesses and startups. With a strong background in both front-end and back-end technologies, I bring creative solutions to life through clean code, innovative design, and performance optimization. My expertise spans modern frameworks such as React, Laravel, and Android, enabling me to build responsive websites and robust mobile applications. Driven by a commitment to continuous learning, I thrive on turning ideas into impactful products that delight users and drive results</p>
             </div>
