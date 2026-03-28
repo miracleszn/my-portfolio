@@ -30,7 +30,7 @@ const Footer = () => {
         <li>•</li>
         <li><a href="https://x.com/miraclecodes" target='_blank'>X (formerly Twitter)</a></li>
         <li>•</li>
-        <li><a href="#">Instagram</a></li>
+        <li><a href="https://www.instagram.com/filtered_miracle/">Instagram</a></li>
         <li>•</li>
         <li><a href="https://github.com/miracleszn" target='_blank'>GitHub</a></li>
       </ul>
