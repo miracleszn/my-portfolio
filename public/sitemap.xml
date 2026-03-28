@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://miracle-gamma.vercel.app/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+```
+
+**2. While you're in the `public` folder, also add your meta tags** to `index.html` inside the `<head>` tag — that's the correct place for React apps.
+
+**3. Push to GitHub** so Vercel redeploys automatically.
+
+**4. Confirm it's live** by visiting:
+```
+https://miracle-gamma.vercel.app/sitemap.xml
+```
+You should see the XML content in your browser.
+
+**5. Go back to Search Console → Indexing → Sitemaps** and submit:
+```
+sitemap.xml
