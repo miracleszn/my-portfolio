@@ -51,7 +51,7 @@ const Hero = () => {
             <h4 className='font-lufga font-medium text-center text-2xl'>Miracle Codes</h4>
             <p className='text-[14px] mb-4 text-center'>FullStack Web Dev | Andriod Dev</p>
             <div className='justify-items-center mb-4'>
-                <SocialBar gapValue={2.5}/>
+                <SocialBar/>
             </div>
             <div className='h-max flex flex-col gap-2.5 items-center'>
                 <Button onClick={() => window.open("https://drive.google.com/file/d/1arMBfMR5C9jl4BVVyYvHQ8otlUm1iXu8/view?usp=sharing", "_blank")} className="bg-neutral-800 h-11 w-36 font-poppins px-1 font-medium text-[16px] rounded-2xl  text-white data-active:bg-[#8D8B83] data-hover:bg-neutral-700">
