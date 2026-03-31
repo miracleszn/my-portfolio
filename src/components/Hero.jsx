@@ -50,7 +50,7 @@ const Hero = () => {
             </div>
             <h4 className='font-lufga font-medium text-center text-2xl'>Miracle Codes</h4>
             <p className='text-[14px] mb-4 text-center'>FullStack Web Dev | Andriod Dev</p>
-            <div className='justify-items-center mb-4'>
+            <div className='flex justify-center mb-4'>
                 <SocialBar/>
             </div>
             <div className='h-max flex flex-col gap-2.5 items-center'>
