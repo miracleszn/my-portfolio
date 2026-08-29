@@ -22,7 +22,13 @@ const ProjectCarousel = () => {
         className="mySwiper"
       >
         <SwiperSlide className="justify-items-center">
-          <Test path={"/lenu-portfolio.jpg"} html css javaScript projectLink={"https://lenubaridoopalace.netlify.app/"} />
+          <Test path={"/forex.png"} react typescript tailwind projectLink={"https://swift-trading-lab.vercel.app/"} />
+        </SwiperSlide>
+        <SwiperSlide className="justify-items-center">
+          <Test path={"/webvid3.gif"} react javaScript tailwind />
+        </SwiperSlide>
+        <SwiperSlide className="justify-items-center">
+          <Test path={"/webvid2.gif"} react typescript tailwind />
         </SwiperSlide>
         <SwiperSlide className="justify-items-center">
           <Test path={"/thrillz-portfolio.jpg"} html css />

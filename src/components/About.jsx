@@ -33,14 +33,15 @@ const About = () => {
                 <div className='text-5xl md:text-[60px] flex flex-wrap gap-3'>
                     <i class="devicon-html5-plain colored"></i>
                     <i class="devicon-css3-plain colored"></i>
-                    <i class="devicon-laravel-original colored"></i>
-                    <i class="devicon-php-plain colored"></i>
                     <i class="devicon-tailwindcss-original colored"></i>
                     <i class="devicon-react-original colored"></i>
                     <i class="devicon-bootstrap-plain-wordmark colored"></i>
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-android-plain-wordmark colored"></i>
-                    <i class="devicon-java-plain-wordmark colored"></i>
+                    <i class="devicon-kotlin-plain colored"></i>
+                    <i class="devicon-typescript-plain colored"></i>
+                    <i class="devicon-jetpackcompose-plain-wordmark colored"></i>
+                    <i class="devicon-androidstudio-plain-wordmark colored"></i>
                 </div>
             </div>
 

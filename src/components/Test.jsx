@@ -1,19 +1,20 @@
 import React from 'react'
 
-const Test = ({ path, html, css, javaScript, react, tailwind, projectLink}) => {
+const Test = ({ path, html, css, javaScript, typescript, react, tailwind, projectLink}) => {
 
   const icons = {
     html : "devicon-html5-plain",
     css : "devicon-css3-plain",
     javaScript : "devicon-javascript-plain",
     react : "devicon-react-original",
-    tailwind : "devicon-tailwindcss-original"
+    tailwind : "devicon-tailwindcss-original",
+    typescript : "devicon-typescript-plain"
   }
 
   return (
     // <div className='w-full overflow-hidden'>
-        <div className='h-64 relative rounded-3xl w-full md:h-80 md:w-xl overflow-hidden'>
-            <img className='h-full w-full object-cover' src={path} alt="" />
+        <div className='h-64 relative p-8 bg-[#CCB877] rounded-3xl w-full md:h-80 md:w-xl overflow-hidden'>
+            <img className='h-full w-full object-contain' src={path} alt="" />
             <div className='absolute content-center text-center h-18 w-18 right-0 top-0 rounded-bl-3xl bg-white dark:bg-[#1A1A18] before:content-[" "] before:absolute before:w-6 before:h-6 before:bg-[#CCB877] before:top-0 before:-left-6 before:rounded-tr-3xl before:shadow-[4px_-6px_1px_3px_#ffffff] dark:before:shadow-[#1A1A18]
             after:content-[" "] after:absolute after:w-6 after:h-6 after:bg-[#CCB877] after:-bottom-6 after:right-0 after:rounded-tr-3xl after:shadow-[4px_-6px_1px_3px_#ffffff] dark:after:shadow-[#1A1A18] '>
                 <button onClick={() => window.open(`${projectLink}`, "_blank")} className='h-14 w-14 rounded-full bg-[#1A1A18] text-white dark:bg-white dark:text-[#1A1A18] text-2xl -rotate-45'><i class="fa-solid fa-arrow-right"></i></button>
@@ -25,6 +26,7 @@ const Test = ({ path, html, css, javaScript, react, tailwind, projectLink}) => {
                 {javaScript && <i className={icons.javaScript}></i>}
                 {react && <i className={icons.react}></i>}
                 {tailwind && <i className={icons.tailwind}></i>}
+                {typescript && <i className={icons.typescript}></i>}
               </div>
             </div>
         </div>
