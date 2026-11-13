@@ -25,10 +25,10 @@ const ProjectCarousel = () => {
           <Test path={"/forex.png"} react typescript tailwind projectLink={"https://swift-trading-lab.vercel.app/"} />
         </SwiperSlide>
         <SwiperSlide className="justify-items-center">
-          <Test path={"/webvid3.gif"} react javaScript tailwind />
+          <Test path={"/webvid3.gif"} react javaScript tailwind projectLink={"https://modelingsitedemo.vercel.app/"} />
         </SwiperSlide>
         <SwiperSlide className="justify-items-center">
-          <Test path={"/webvid2.gif"} react typescript tailwind />
+          <Test path={"/webvid2.gif"} react typescript tailwind projectLink={"https://campwebsite-real.vercel.app/"} />
         </SwiperSlide>
         <SwiperSlide className="justify-items-center">
           <Test path={"/thrillz-portfolio.jpg"} html css />
